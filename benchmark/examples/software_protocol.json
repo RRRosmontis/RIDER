@@ -1,0 +1,65 @@
+{
+  "schema": "rider-public-format-examples-v1",
+  "illustrative_only_not_materialized_tasks": true,
+  "examples": {
+    "tool_return_SQL_NULL": {
+      "schema": "e7-v2-tool-result-v1",
+      "output": {
+        "rows": [
+          [
+            null
+          ]
+        ]
+      },
+      "exception": null,
+      "runtime": {
+        "status": "returned",
+        "tool_id": "stdlib-sqlite",
+        "version": "<observed version>",
+        "elapsed_seconds": 0.01,
+        "cpu_seconds": 0.005,
+        "setup_sql_statements": 2,
+        "loaded_rows": 0
+      }
+    },
+    "checker_natural_failure": {
+      "schema": "e7-v2-check-result-v1",
+      "state": "fail",
+      "reason": "valid request; verified native overflow before required delivery",
+      "delivery_failure": true,
+      "semantic_comparison": {
+        "performed": false
+      },
+      "rule_directly_solves": true,
+      "check_wall_seconds": 0.001,
+      "check_cpu_seconds": 0.001,
+      "target_origin": "observed_delivery_failure"
+    },
+    "checker_missing": {
+      "schema": "e7-v2-check-result-v1",
+      "state": "abstain",
+      "reason": "public semantics undefined/outside frozen domain",
+      "delivery_failure": false,
+      "semantic_comparison": {
+        "performed": false
+      },
+      "rule_directly_solves": true,
+      "check_wall_seconds": 0.001,
+      "check_cpu_seconds": 0.001,
+      "target_origin": "missing"
+    },
+    "checker_semantic_pass": {
+      "schema": "e7-v2-check-result-v1",
+      "state": "pass",
+      "reason": "all declared semantic fields match",
+      "delivery_failure": false,
+      "semantic_comparison": {
+        "performed": true
+      },
+      "rule_directly_solves": true,
+      "check_wall_seconds": 0.001,
+      "check_cpu_seconds": 0.001,
+      "target_origin": "semantic_check"
+    }
+  }
+}

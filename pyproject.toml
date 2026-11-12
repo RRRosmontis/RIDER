@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rider-research-preview"
+version = "0.1.0"
+description = "Selected non-core utilities for the RIDER research preview"
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["rider"]
+
+[tool.rider]
+release-kind = "partial-preview"
+full-release = "upon-acceptance"
+license-status = "review-pending-no-license-granted"

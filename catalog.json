@@ -1,0 +1,18 @@
+{
+  "project": "RIDER: Residual Inference Drives Evidence-Based Routing",
+  "release_kind": "partial-preview",
+  "full_release": "upon-acceptance",
+  "release_notice_zh": "待录用后发布全部完整代码。",
+  "release_notice_en": "Full code and benchmark will be released upon acceptance.",
+  "contents": {
+    "benchmark_notice": "benchmark/readme.txt",
+    "illustrative_formats": "benchmark/examples/software_protocol.json",
+    "source_notice": "src/readme.txt",
+    "non_core_utility": "src/rider/accounting.py",
+    "package_metadata": "src/rider/__init__.py",
+    "manuscript_figures": "assets/readme/"
+  },
+  "benchmark_task_instances_included": false,
+  "core_routing_implementation_included": false,
+  "experiment_pipelines_included": false
+}
