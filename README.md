@@ -4,7 +4,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/readme/header_dark.png">
-  <img src="assets/readme/header_light.png" width="90%" alt="RIDER: Residual Inference Drives Evidence-Based Routing — Qianyue Sun (1), Wenpeng Cao (1), Ruitong Liu (2), Zhuang Liu (1); 1 DUFE, 2 FDU">
+  <img src="assets/readme/header_light.png" width="90%" alt="RIDER: Evidence-Guided First-Order Fuzzy Residual Inference for Adaptive Tool Routing in LLM Agents — Qianyue Sun (1), Wenpeng Cao (1), Ruitong Liu (2), Zhuang Liu (1); 1 DUFE, 2 FDU">
 </picture>
 
 <p>
@@ -170,7 +170,7 @@ Provisional manuscript citation:
 
 ```bibtex
 @misc{sun2026rider,
-  title={RIDER: Residual Inference Drives Evidence-Based Routing},
+  title={RIDER: Evidence-Guided First-Order Fuzzy Residual Inference for Adaptive Tool Routing in LLM Agents},
   author={Sun, Qianyue and Cao, Wenpeng and Liu, Ruitong and Liu, Zhuang},
   year={2026},
   note={Manuscript}
